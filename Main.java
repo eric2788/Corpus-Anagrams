@@ -17,7 +17,7 @@ public class Main {
 			line = scanner.nextLine();
 			try {
 				Integer.parseInt(line);
-				System.out.println("you can type a number!!");
+				System.out.println("you can't type a number!!");
 				continue;
 			}catch(NumberFormatException ignore) {
 			}
